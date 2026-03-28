@@ -100,15 +100,13 @@ green-truth-auditor/
   * **Utkarsha Mane** 
   * **Asmita Wattamwar** 
   
-  
-
 -----
 
 ### 🛠️ Installation & Usage
 
 ```bash
 # Clone the repository
-git clone https://github.com/shriya/green-truth-auditor.git
+git clone https://github.com/Utkarsha-mane/GreenTruth-Auditor.git
 
 # Install dependencies
 pip install -r requirements.txt

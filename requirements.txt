@@ -1,0 +1,12 @@
+streamlit
+pandas
+transformers
+torch
+rapidfuzz
+plotly
+beautifulsoup4
+requests
+sentencepiece
+PyPDF2
+datasets
+scikit-learn

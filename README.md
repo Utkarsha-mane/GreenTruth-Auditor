@@ -85,6 +85,14 @@ green-truth-auditor/
 5.  **Visualization:** Data is rendered into an interactive dashboard for the end-user.
 
 -----
+## 🏁 Architecture Diagram
+<img width="1408" height="620" alt="Gemini_Generated_Image_izpydhizpydhizpy" src="https://github.com/user-attachments/assets/f4b213c5-df22-4afe-9ef2-2de60437c5e8" />
+
+## 🏁 Accuracy of ClimateBERT
+<img width="965" height="531" alt="image" src="https://github.com/user-attachments/assets/892a324f-31a9-434b-a492-814a6a81880c" />
+
+## 🏁 Accuracy of DistilBart
+<img width="863" height="440" alt="image" src="https://github.com/user-attachments/assets/ecabd736-ec78-4480-bd86-028126a9f488" />
 
 ## 🏁 Future Roadmap
 
@@ -114,3 +122,4 @@ pip install -r requirements.txt
 # Run the platform
 streamlit run app.py
 ```
+

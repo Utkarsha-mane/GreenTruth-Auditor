@@ -15,7 +15,7 @@ Unlike basic sentiment tools, our platform operates on a multi-stage pipeline de
 1.  **Ingestion Layer:** Multi-channel input handling via **BeautifulSoup4** (Web Scraping) and **PyPDF2** (Smart-sampling for 100+ page ESG reports).
 2.  **Gatekeeper Layer (ClimateBERT):** A domain-specific RoBERTa model that filters out non-environmental noise, ensuring the auditor only processes relevant climate claims.
 3.  **Auditor Layer (DistilBART-NLI):** A Zero-Shot classification engine that performs semantic reasoning to distinguish between **Quantitative Facts** and **Marketing Fluff**.
-4.  **Verification Layer (RAG):** A localized Retrieval-Augmented Generation engine that cross-references brand names against a database of **2,300+ Certified B-Corps** using fuzzy-logic matching.
+4.  **Verification Layer (RAG):** A localized Retrieval-Augmented Generation engine that cross-references brand names against a database of **2,300+ Certified B-Corps**.
 5.  **Intelligence Layer (GWI Engine):** Our proprietary scoring algorithm that calculates the **Green-Wash Index (GWI)**:
     $$GWI = (\text{Avg Fluff Probability} \times 0.7) + (\text{Buzzword Density}) - (\text{Verification Bonus})$$
 6.  **Explainability Layer (XAI):** A Streamlit-driven interface providing sentence-level semantic highlighting (Green for Fact, Red for Vague) and Performance Radar charts.
